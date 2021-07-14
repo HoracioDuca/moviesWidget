@@ -1,5 +1,6 @@
 abstract class StringConstants {
   static const String mainAppBarTitle = "Home";
+  static const String votes = " votes";
   static const String titleWidget = "Title";
   static const String subtitleWidget = "Subtitle Widget";
   static const String voteAverageWidget = "Vote Average Widget";

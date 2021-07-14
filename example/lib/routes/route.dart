@@ -1,9 +1,8 @@
-import 'package:example/utils/dimension_constants.dart';
-import 'package:example/utils/string_constants.dart';
-
+import '../utils/dimension_constants.dart';
+import '../utils/string_constants.dart';
 import 'route_constants.dart';
-import '../view/home.dart';
-import '../view/widget_detail.dart';
+import '../views/home.dart';
+import '../views/widget_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:movies_widgets/movies_widgets.dart';
 
@@ -29,7 +28,9 @@ Route<dynamic> controller(RouteSettings settings) {
           widget: MovieDetailSubtitle(
             movieOriginalLanguage: StringConstants.defaultOriginalLanguage,
             movieReleaseDate: StringConstants.defaultMovieReleaseDate,
-            movieVoteCount: DimensionConstants.defaultMovieVoteCount,
+            movieVoteCount:
+                DimensionConstants.defaultMovieVoteCount.toString() +
+                    StringConstants.votes,
           ),
         ),
       );

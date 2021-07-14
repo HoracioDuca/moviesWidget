@@ -1,6 +1,8 @@
-import 'view/home.dart';
+import 'package:example/routes/route_constants.dart';
+
+import 'views/home.dart';
 import 'package:flutter/material.dart';
-import 'route/route.dart' as route;
+import 'routes/route.dart' as route;
 
 void main() => runApp(
       MovieWidgets(),
@@ -16,7 +18,7 @@ class MovieWidgets extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: HomePage(),
+      initialRoute: RouteConstants.homePage,
       onGenerateRoute: route.controller,
     );
   }

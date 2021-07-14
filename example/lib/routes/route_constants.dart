@@ -1,5 +1,5 @@
 abstract class RouteConstants {
-  static const String homePage = '/home';
+  static const String homePage = '/';
   static const String widgetTitle = '/widgetTitle';
   static const String widgetSubtitle = '/widgetSubtitle';
   static const String widgetPoster = '/widgetPoster';

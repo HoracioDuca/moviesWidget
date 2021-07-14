@@ -1,3 +1,4 @@
+import '../utils/dimension_constants.dart';
 import '../utils/string_constants.dart';
 import 'package:flutter/material.dart';
 
@@ -25,6 +26,12 @@ class WidgetDetail extends StatelessWidget {
         child: widget,
       ),
       bottomNavigationBar: ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          primary: Colors.deepPurpleAccent,
+          textStyle: TextStyle(
+            fontSize: DimensionConstants.buttonFontSize,
+          ),
+        ),
         child: Text(
           StringConstants.returnBottom,
         ),

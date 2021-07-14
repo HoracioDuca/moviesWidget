@@ -5,7 +5,7 @@ import '/../utils/movie_dimensions.dart';
 class MovieDetailSubtitle extends StatelessWidget {
   final String movieReleaseDate;
   final String movieOriginalLanguage;
-  final int movieVoteCount;
+  final String movieVoteCount;
 
   const MovieDetailSubtitle({
     Key? key,
@@ -17,7 +17,7 @@ class MovieDetailSubtitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      "${this.movieReleaseDate}, ${this.movieOriginalLanguage}, ${this.movieVoteCount} votes",
+      "${this.movieReleaseDate}, ${this.movieOriginalLanguage}, ${this.movieVoteCount}",
       style: TextStyle(
         color: MovieColors.customWhite.withOpacity(
           MovieDimensions.textStyleOpacity,
