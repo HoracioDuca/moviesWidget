@@ -26,7 +26,7 @@ class MovieDetailOverview extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: MovieDimensions.overviewSizedBoxHeight,
         ),
         Text(

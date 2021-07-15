@@ -1,6 +1,4 @@
-import 'package:example/routes/route_constants.dart';
-
-import 'views/home.dart';
+import 'routes/route_constants.dart';
 import 'package:flutter/material.dart';
 import 'routes/route.dart' as route;
 

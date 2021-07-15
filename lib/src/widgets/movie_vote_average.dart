@@ -23,10 +23,10 @@ class MovieVoteAverage extends StatelessWidget {
             fontSize: MovieDimensions.titleFontSize,
           ),
         ),
-        SizedBox(
+        const SizedBox(
           width: MovieDimensions.sizedBoxWidth,
         ),
-        SizedBox(
+        Container(
           height: MovieDimensions.sizedBoxStarsList,
           child: ListView.builder(
             shrinkWrap: true,
